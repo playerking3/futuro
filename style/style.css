@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.header {
+    background-color: #40826a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+    color: #dfdfdf;
+}
+
+.header img {
+    height: 80px;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+
+.introducao div {
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+    font-size: large;
+}
+
+.imagem img {
+    width: 100%;
+}
+
+.introducao {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 27px), 50% 100%, 0 calc(100% - 27px));
+}
+
+.como {
+    clip-path: polygon(0 0, 50% 27px, 100% 0, 100% 100%, 0 100%);
+    margin-top: -27px;
+    background-color: #40826a;
+    padding: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #dfdfdf;
+    gap: 12px;
+}
+
+.comogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px;
+}
+
+.comogrid div {
+    padding: 22px;
+    border-radius: 22px;
+    background: #40826a;
+    box-shadow: inset 22px 22px 28px #2d5c4b, inset -22px -22px 28px #53a889;
+    text-align: center;
+    gap: 8px;
+}
+
+.comogrid div i {
+    font-size: larger;
+}
+
+.tecnologia {
+    background: #40826a;
+    color: #dfdfdf;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+}
+
+.tecnologia h2 {
+    margin: 8px;
+}
+
+.tecnologia p {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.tecgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.tecnologia img {
+    margin: 42px;
+    height: 275px;
+    border-radius: 12px;
+}
+
+.tecgrid div {
+    border-radius: 50px;
+    background: #40826a;
+    box-shadow: inset 20px 20px 39px #366f5a, inset -20px -20px 39px #4a967a;
+
+}
